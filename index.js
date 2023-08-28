@@ -5,7 +5,6 @@ const bcrypt = require("bcrypt");
 const connectToDatabase = require("./db");
 const User = require("./models/User");
 const Post = require("./models/Post");
-
 const app = express();
 const PORT = 3000;
 app.use(bodyParser.json());
